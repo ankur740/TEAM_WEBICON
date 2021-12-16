@@ -232,7 +232,7 @@ header .navbar a:hover{
 
 .footer{
     padding-top: 3rem;
-    background:url(../image/footer-bg.png) no-repeat;
+    background:url(/TEAM_WEBICON/app_perk/image/footer-bg.png) no-repeat;
     background-size: cover;
     background-position: center;
 }
