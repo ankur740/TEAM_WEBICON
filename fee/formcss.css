@@ -1,0 +1,404 @@
+
+*{
+	box-sizing: border-box;
+}
+body
+{
+	padding: 0;
+	margin: 0;
+	background-image: url("assest/img/formbg3.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: top-left;
+	position: relative;
+	padding-bottom: 200px;
+	font-family: 'Libre Baskerville', serif;
+
+	
+}
+.navbar{
+	list-style-type:none;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+}
+
+.fixedheader{
+	display: flex;
+	flex-direction: row;
+	background-image: linear-gradient(to right, #3620CD , #7104EB,#B517DE);
+	height:90px;
+	position: fixed;
+	width: 100%;
+	margin: 0;
+	top: 0;
+	box-shadow:  8px 1px 15px blanchedalmond;
+}
+
+
+.nav{
+	width: 80%;
+}
+.logo
+{
+	width: 20%;
+}
+.logo img{
+	display: block;
+	margin: auto;
+}
+
+
+
+.navbar li a{
+	display: block;
+	text-decoration: none;
+	padding: 3px 10px 3px 10px;
+	font-size:17px ;
+	color:#f5f5f7 ;
+	font-family: 'Libre Baskerville', serif;
+	transition-property: background-color;
+	transition-duration: 1s;
+	transition-timing-function: ease;
+    border-radius: 20px;
+    letter-spacing: 0.5px;
+}
+.nav li a:hover{
+	background-color:#134fbf;
+	border-radius: 20px;
+	color: black;
+}
+.nav li{
+	margin: 17px;
+}
+
+.shopinfo{
+	position: absolute;
+//	background-color:rgba(16, 0, 48, 0.90);
+ background-image: linear-gradient(to bottom, #3620CD , #7104EB,#B517DE);
+	padding: 10px;
+	width: 80%;
+	top: 135px;
+	bottom: 200px;
+	left: 10%;
+	height: 2000px;
+	z-index: -1;
+}
+.empty{
+	position: absolute;
+	height: 200px;
+	width: 100%;
+	top: 2090px;
+}
+.otherdetails{
+//	background-color: pink;
+	color: white;
+	width: 90%;
+	margin: auto;
+	//height: 500px;
+	padding-bottom: 50px;
+}
+.imgandname{
+	 background-image: linear-gradient(to bottom, #1013de , #de10b1);
+	color: white;
+	width: 90%;
+	margin: auto;
+	//height: 300px;
+}
+.otherdetails ul{
+	list-style-type: none;
+}
+.otherdetails ul li{
+	padding: 30px;
+	 background-image: linear-gradient(to right, #1013de , #de10b1);
+	z-index: 1;
+	margin: 30px;
+	color: #ffffff;
+	font-size: 14px;
+	box-shadow: 4px 4px 10px #f5e907;
+	transition-property: all;
+	transition-duration: 1s;
+	transition-timing-function: ease-in;
+}
+
+.otherdetails ul li:hover{
+
+}
+
+
+.otherdetails ul li i{
+	font-size: 25px;
+	color: #12fc16;
+	padding-right: 10px;
+
+}
+.shopinfo .editbutton button{
+	display: block;
+	margin: auto;
+	color: white;
+	font-size: 40px;
+	width: 120px;
+	height: 50px;
+	background-color: #132df2;
+	box-shadow: 3px 3px 8px #f5e907;
+}
+.shopname ul{
+	list-style-type: none;
+	width: 400px;
+	margin: auto;
+}
+.shopname ul li{
+	font-size: 20px;
+}
+.shopname ul li i{
+	font-size: 17px;
+}
+
+
+.shopname{
+	padding: 10px;
+
+}
+.shopimg{
+	margin-top: 25px;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.shopimage{
+	display: block;
+	margin: auto;
+	border-radius: 3px;
+	transition-property: all;
+	transition-duration: 1s;
+	transition-timing-function: ease-in;
+	box-shadow: 4px 4px 10px #f5e907;
+}
+.shopimage:hover{
+	//box-shadow: 5px 5px 3px yellow;
+	transform: scale(1.15);
+}
+.imgandname{
+	margin-top: 30px;
+	padding-top: 30px;
+	box-shadow: 4px 4px 10px #f5e907;
+}
+
+/*form which will show shop details*/
+.editformforshop{
+	z-index: 1;
+	background-color:#212a38;
+
+	color: white ;
+	font-size: 15px;
+	position: absolute;
+	top: 150px;
+	left: 35%;
+	width: 30%;
+	padding: 10px;
+	border-radius: 5px;
+	box-shadow:  4px 8px 20px #f5e907;
+	display: none;
+
+}
+
+.editformforshop .formelm{
+   padding: 5px;
+}
+.editformforshop .formelm .labeldiv{
+padding: 2px;
+}
+.inputdiv{
+	padding: 2px;
+
+}
+
+.submitformbtn input
+{
+	margin-left:40%;
+	padding: 5px;
+	height: 30px;
+	width: 60px;
+}
+input ,select{
+	background-color: rgba(16, 0, 48,0.80);
+	color: white;
+}
+
+
+
+/* contact us page*/
+.contactdiv{
+  position: absolute;
+  margin-top: 120px;
+  width: 70%;
+  left: 15%;
+  z-index: -1;
+}
+.contactdiv .buisness .heading
+{
+	margin: auto;
+}
+
+.contactdiv ul{
+	margin: auto;
+	list-style-type: none;
+}
+.contactdiv ul{
+   padding: 30px;
+	 background-image: linear-gradient(to bottom, #3620CD , #7104EB,#B517DE);
+	z-index: 1;
+	margin: 50px;
+	color: #ffffff;
+	font-size: 14px;
+	box-shadow: 10px 7px 15px blanchedalmond;;
+	border-radius: 50%;
+	transition: transform 1s ease 0s;
+}
+.contactdiv ul:hover{
+  transform: rotate3d(1, 1, 1, 360deg);
+}
+
+
+
+.contactdiv ul li{
+	padding: 10px;
+	margin: 20px;
+	text-align: center;
+	font-size: 18px;
+}
+ .contactdiv .heading{
+ font-size: 35px;
+ color: black;
+ margin: auto;
+ text-align: center;
+}
+.contactdiv li span{
+	font-size: 16px;
+	font-style: oblique;
+}
+.contactdiv ul li em{
+	font-size: 16px;
+	margin: 5px;
+}
+
+/*product page */
+
+.products .item ul{
+	list-style-type: none;
+}
+.products {
+	position: absolute;
+	top: 120px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	//justify-content: space-between;
+	width: 80%;
+	left: 10%;
+	z-index: -1;
+}
+
+.products .item {
+	//background-color: rgba(16, 0, 48,0.95) ;
+	 background-image: linear-gradient(to bottom, #3620CD , #7104EB,#B517DE);
+	font-size: 16px;
+	padding: 10px;
+	width: 25%;
+	margin: 25px;
+	box-shadow: 10px 7px 15px black;
+	border-radius: 15px;
+	color: white;
+}
+.products .item li{
+  padding:10px;
+  text-align: center;
+  margin-left: 0px;
+}
+.products ul{
+	margin: 0px;
+	padding: 0px;
+}
+.productimg{
+	width: 100%;
+}
+.item img{
+	display: block;
+	width: 100%;
+	height: 180px;
+	border-radius: 15px;
+	margin: auto;
+}
+.item em{
+	margin: 3px;
+	font-size: 14px;
+}
+.item .editbutton{
+}
+.item .editbutton button{
+display: block;
+width:65px ;
+height:35px ;
+background-color: #134fbf;
+box-shadow:3px 4px 8px blanchedalmond ;
+color: white;
+margin: auto;
+font-size: 20px;
+}
+
+.signin{
+	width: 80%;
+	margin: auto;
+	margin-top: 60px;
+	height: 600px;
+}
+.signin {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.signin .form1,.form2{
+	background-image: linear-gradient(to bottom, #3620CD , #7104EB,#B517DE);
+	margin: 100px;
+	width: 40%;
+	height: 400px;
+	text-align: center;
+	border-radius: 15%;
+	box-shadow: 2px 4px 10px black;
+}
+.signin .unit{
+	padding: 10px;
+	margin: 20px;
+}
+.signin .unit h3{
+	font-size: 25px;
+	color: white;
+	text-shadow: 1px 2px 10px black;
+	font-style: oblique;
+}
+.signin .submitbtn button{
+	display: block;
+	height:35px ;
+	width:65px ;
+	color: white;
+	background-color:blue ;
+	padding: 5px;
+	box-shadow: 2px 3px 10px blanchedalmond;
+	margin: auto;
+	font-size: 15px;
+}
+.signin label{
+	display: inline-block;
+	font-size: 20px;
+	color: white;
+	padding: 10px;
+	text-shadow: 1px 2px 10px black;
+}
+.signin input{
+	background-color: #1f2240;
+}
+.sign{
+		background-image: url("assest/img/signinform.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: top-left;
+}
