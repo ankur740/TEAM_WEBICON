@@ -83,7 +83,7 @@ header .navbar a:hover{
     display:flex;
     align-items: center;
     justify-content: center;
-    background: url(../image/home-bg-img.jpg)no-repeat;
+    background: url(/TEAM_WEBICON/app_perk/image/home-bg-img.jpg)no-repeat;
     background-size: cover;
     background-position: center;
     }
@@ -156,7 +156,7 @@ header .navbar a:hover{
 /* about starts */
 
 .about{
-    background:url(../image/about-bg.png)no-repeat;
+    background:url(/TEAM_WEBICON/app_perk/image/about-bg.png)no-repeat;
     background-size: cover;
     background-position: centre;
     background-position-y: center;
