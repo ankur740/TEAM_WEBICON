@@ -32,7 +32,6 @@
 			<li> <a href="to deal.html">  To Deal</a> </li>
 		<!--	<li><a href="#"> feedbacks</a>  </li> -->
 			<li> <a href="owner_contactus.html"> Contact Us</a>  </li>
-			<li><a href="#"> Logout</a>  </li>
 
 		</ul>
 	 </div>
@@ -40,7 +39,7 @@
   </div>
 
 
-<div class="shopinfo">
+<div class="shopinfo" id="sinfo">
 
 <div class="imgandname">
  
@@ -72,7 +71,7 @@
 </div>
 
 <div class="editbutton">
- <button id="btn1"><i class='bx bx-edit-alt'  ></i></button>
+ <button id="btn1" ><a href="#sinfo"><i class='bx bx-edit-alt'  ></i></a></button>
  </div>
 
 </div>
@@ -320,7 +319,7 @@
 	  </div>
 	
 		<div class="submitformbtn">
-			<input type="button" value="SAVE">
+		<button id="btn2">SAVE</button>
 	  </div>
 	
 
@@ -332,23 +331,8 @@
 	</form>
 </div>
  </body>
- <script  >
+ <script  src="owner_script.js">
 
-	 
-const x =document.querySelector("#btn1");
-x.addEventListener("click",show);
-function show()
-{
-	document.querySelector(".editformforshop").style.display="block";
-
-	
-}
-
-const y=document.querySelector("#btn2");
-y.addEventListener("click",hide);
-function hide(){
-	document.querySelector(".editformforshop").style.display="none";
-} 
 
 </script>
 </html>
