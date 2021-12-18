@@ -29,10 +29,9 @@
 	        <li>  <a href="owner_shopinfo.html">Shop</a></li>
 			<li>  <a href="owner_products.html">Products</a></li>
 			<li > <a href="owner_appointments.html">  Appointments</a>  </li>
-			<li> <a href="#">  To Deal</a> </li>
+			<li> <a href="to deal.html">  To Deal</a> </li>
 		<!--	<li><a href="#"> feedbacks</a>  </li> -->
 			<li> <a href="owner_contactus.html"> Contact Us</a>  </li>
-			<li><a href=" plz give path for it ">Logout</a>  </li>
 		</ul>
 	 </div>
 
@@ -55,7 +54,7 @@
 	 		<li>New Price : <i class='bx bx-rupee'></i> 90</li>
 	 		<li>Open</li>
 	 		<li class="editbutton">
- <button id="btn1"><i class='bx bx-edit-alt'  ></i></button>
+ <button class="btn3" ><a href="#"><i class='bx bx-edit-alt'  ></i></a></button>
  </li>
 	 	</ul>
 	  </div>
@@ -75,7 +74,7 @@
 	 		<li>New Price : <i class='bx bx-rupee'></i> 340</li>
 	 		<li>Open</li>
 	 		<li class="editbutton">
- <button id="btn1"><i class='bx bx-edit-alt'  ></i></button>
+ <button class="btn4" ><a href="#"><i class='bx bx-edit-alt'  ></i></a></button>
  </li>
 	 	</ul>
 	  </div>
@@ -96,7 +95,7 @@
 	 		<li>New Price : <i class='bx bx-rupee'></i> 45</li>
 	 		<li>Open</li>
 	 		<li class="editbutton">
- <button id="btn1"><i class='bx bx-edit-alt'  ></i></button>
+ <button class="btn5" ><a href="#"><i class='bx bx-edit-alt'  ></i></a></button>
  </li>
 	 	</ul>
 	  </div>
@@ -117,7 +116,7 @@
 	 		<li>New Price : <i class='bx bx-rupee'></i> 85</li>
 	 		<li>Open</li>
 	 		<li class="editbutton">
- <button id="btn1"><i class='bx bx-edit-alt'  ></i></button>
+ <button class="btn6" ><a href="#"><i class='bx bx-edit-alt'  ></i></a></button>
  </li>
 	 	</ul>
 	  </div>
@@ -138,7 +137,7 @@
 	 		<li>New Price : <i class='bx bx-rupee'></i> 720</li>
 	 		<li>Open</li>
 	 		<li class="editbutton">
- <button id="btn1"><i class='bx bx-edit-alt'  ></i></button>
+ <button class="btn7" ><a href="#"><i class='bx bx-edit-alt'  ></i></a></button>
  </li>
 	 	</ul>
 	  </div>
@@ -159,7 +158,7 @@
 	 		<li>New Price : <i class='bx bx-rupee'></i> 800</li>
 	 		<li>Open</li>
 	 		<li class="editbutton">
- <button id="btn1"><i class='bx bx-edit-alt'  ></i></button>
+ <button class="btn8" ><a href="#"><i class='bx bx-edit-alt'  ></i></a></button>
  </li>
 	 	</ul>
 	  </div>
@@ -169,14 +168,120 @@
 
 </div>
 
+<div class="editformforshop productedit">
+	
+	<form action="#" method="POST">
 
+<div class="formelm">
+		<div class="labeldiv">
+		<label for="shopimg">
+			Edit Image : 
+		</label>
+	  </div>
+		<div class="inputdiv">
+		<input type="file" name="shopimg" id="shopimg">
+</div>
+</div>
+
+<div class="formelm">
+
+			<div class="labeldiv">
+		<label for="shopname">
+			Service : 
+		</label>
+	  </div>
+		<div class="inputdiv">
+		<input type="text" name="shopname" id="shopname" value="">
+	  </div>
+
+	</div>
+
+
+
+
+<div class="formelm">
+			<div class="labeldiv">
+		<label >
+			type : 
+		</label>
+
+		<br>
+
+	  </div>
+
+		<div class="inputdiv">
+		<input type="radio" name="type" id="type" checked>
+        <label>
+			Males Only 
+		</label>
+
+<input type="radio" name="type" id="type" >
+        <label>
+			Females Only 
+		</label>
+
+<input type="radio" name="type" id="type" >
+        <label>
+			Both
+		</label>
+
+	  </div>
+	</div>  
+	
+
+<div class="formelm">
+
+			<div class="labeldiv">
+		<label for="shopname">
+			Price : 
+		</label>
+	  </div>
+		<div class="inputdiv">
+		<input type="tel" name="shopname" id="shopname" value=""> <i class='bx bx-rupee'></i>
+	  </div>
+
+	</div>
+
+<div class="formelm">
+
+			<div class="labeldiv">
+		<label for="shopname">
+			Offer : 
+		</label>
+	  </div>
+		<div class="inputdiv">
+		<input type="tel" name="shopname" id="shopname" value="" maxlength="2"> &#37;
+	  </div>
+
+	</div>
+
+
+     <div class="formelm">
+
+		<div class="labeldiv">
+		<label for="avaibility">
+			Availability: 
+		</label>
+	  </div>
+		<div class="inputdiv">
+		<select>
+			<option>open</option>
+			<option>closed</option>
+		</select>
+	  </div>
+
+	  </div>
+	
+		<div class="submitformbtn">
+		<button id="btn4">SAVE</button>
+	  </div>
+
+</div>
 
 
 </body>
-	
-	
-	
-	<script >
+
+ <script >
  	
  	const w =document.querySelector("#btn4");
         w.addEventListener("click",hideme);
@@ -208,8 +313,6 @@
         	document.querySelector(".productedit").style.display="block";
         }
 </script>
-	
-	
-	
+
 </html>
 
