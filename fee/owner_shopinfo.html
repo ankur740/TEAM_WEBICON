@@ -32,6 +32,7 @@
 			<li> <a href="to deal.html">  To Deal</a> </li>
 		<!--	<li><a href="#"> feedbacks</a>  </li> -->
 			<li> <a href="owner_contactus.html"> Contact Us</a>  </li>
+			<li><a href="#"> Logout</a>  </li>
 
 		</ul>
 	 </div>
@@ -332,13 +333,22 @@
 </div>
  </body>
  <script  >
-const d=querySelector('.editbutton');
-d.addEventListener("click",show);
 
+	 
+const x =document.querySelector("#btn1");
+x.addEventListener("click",show);
 function show()
 {
-	const box=querySelector('.editbutton');
-	box.style.backgroundColor="black";
+	document.querySelector(".editformforshop").style.display="block";
+
+	
 }
+
+const y=document.querySelector("#btn2");
+y.addEventListener("click",hide);
+function hide(){
+	document.querySelector(".editformforshop").style.display="none";
+} 
+
 </script>
 </html>
