@@ -8,6 +8,9 @@
 	height: 600px;
 	margin-bottom: 200px;
 }
+a{
+	text-decoration:none;
+	color:white;}
 
 .signin .form1{
 	background-image: linear-gradient(to bottom, #3620CD , #7104EB,#B517DE);
@@ -52,7 +55,7 @@
 	color: white;
 }
 .sign{
-	background-image: url("signbutton/images/home-bg-img.jpg");
+	background-image: url("images/home-bg-img.jpg");
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: top-left;
