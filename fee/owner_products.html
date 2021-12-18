@@ -32,6 +32,7 @@
 			<li> <a href="#">  To Deal</a> </li>
 		<!--	<li><a href="#"> feedbacks</a>  </li> -->
 			<li> <a href="owner_contactus.html"> Contact Us</a>  </li>
+			<li><a href=" plz give path for it ">Logout</a>  </li>
 		</ul>
 	 </div>
 
@@ -172,5 +173,43 @@
 
 
 </body>
+	
+	
+	
+	<script >
+ 	
+ 	const w =document.querySelector("#btn4");
+        w.addEventListener("click",hideme);
+        function hideme(){
+        	document.querySelector(".productedit").style.display="none";
+        	//document.querySelector(".editformforshop").style.display="none";
+        }
+
+        const p1=document.querySelector(".btn3");
+        p1.addEventListener("click",showme);
+      
+
+ const p2=document.querySelector(".btn4");
+        p2.addEventListener("click",showme);
+
+ const p3=document.querySelector(".btn5");
+        p3.addEventListener("click",showme);
+
+         const p4=document.querySelector(".btn6");
+        p4.addEventListener("click",showme);
+
+         const p5=document.querySelector(".btn7");
+        p5.addEventListener("click",showme);
+
+         const p6=document.querySelector(".btn8");
+        p6.addEventListener("click",showme);
+
+        function showme(){
+        	document.querySelector(".productedit").style.display="block";
+        }
+</script>
+	
+	
+	
 </html>
 
